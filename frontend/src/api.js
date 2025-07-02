@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE = "http://localhost:3000"; // or your deployed backend
+const API_BASE = "http://localhost:3000"; 
 
 export const getProblems = () => axios.get(`${API_BASE}/problems`);
 export const addProblem = (data) => axios.post(`${API_BASE}/problems`, data);
